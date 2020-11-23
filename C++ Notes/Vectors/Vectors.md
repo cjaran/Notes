@@ -217,3 +217,24 @@ Here, we incremented i from 0 to vector.size(), which is 3. During each iteratio
 - When i = 0, we added 10 to vector[0]
 - When i = 1, we added 10 to vector[1]
 - When i = 2, we added 10 to vector[2]
+
+## Review
+
+Congratulations! You have learned about how to store groups of data into vectors in C++. 🙌
+
+Here are some of the things that we learned:
+
+-   Vectors are a sequence of elements that you can access by an index.
+
+    ```
+    std::vector<int> even = {2, 4, 6, 8, 10};
+    ```
+
+-   The first index in a vector is `0`.
+
+-   Some of the functions that come with vectors:
+
+    -   `.push_back()`
+    -   `.pop_back()`
+    -   `.size()`
+-   We can use a `for` loop to iterate through a vector.
